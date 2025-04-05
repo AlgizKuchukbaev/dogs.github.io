@@ -1,0 +1,34 @@
+.page__news {
+  margin-inline: 20em;
+}
+
+.news__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.news__image {
+  height: fit-content;
+  width: 30vw;
+  margin-inline: 1em;
+  border-radius: 1em;
+}
+
+@media (max-width: 95em) {
+  .page__news {
+    margin-inline: 1em;
+  }
+}
+
+@media (max-width: 50em) {
+  .news__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .news__image {
+    margin-inline: 0;
+    margin-block: 1em;
+    width: 88vw;
+  }
+}
