@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/components/header.css" />
     <link rel="stylesheet" href="./styles/components/footer.css" />
     <link rel="stylesheet" href="./styles/components/footerDropdown.css" />
+    <link rel="stylesheet" href="./styles/components/video.css" />
     <link rel="stylesheet" href="./styles/home/home.css" />
     <link
       type="image/png"
@@ -86,9 +87,24 @@
               Новости
             </a>
           </li>
+          <li class="item header__navbar-item">
+            <a class="link header__link--black-base" href="./video.html">
+              Видео
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <section class="section-video">
+      <video
+        class="video video-dog"
+        src="./media/videos/home.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+    </section>
 
     <main class="main page__main">
       <h1 class="heading">Собачки</h1>
@@ -266,10 +282,13 @@
       <nav class="navbar footer__navbar">
         <ul class="list footer__navbar-list">
           <li class="item footer__navbar-item">
-            <a class="link text--white" href="./index.html"> Главная </a>
+            <a class="link text--white" href="./index.html">Главная</a>
           </li>
           <li class="item footer__navbar-item">
-            <a class="link text--white" href="./news.html"> Новости </a>
+            <a class="link text--white" href="./news.html">Новости</a>
+          </li>
+          <li class="item footer__navbar-item">
+            <a class="link text--white" href="./video.html">Видео</a>
           </li>
           <li class="item footer__navbar-item">
             <div class="dropdown">
