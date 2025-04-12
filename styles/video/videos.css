@@ -1,5 +1,5 @@
 .page__main-videos {
-  margin-inline: 20em;
+  margin-inline: clamp(160px, 15vw, 400px);
 }
 
 .main-videos__grid-container {
@@ -24,20 +24,20 @@
   font-size: 1em;
 }
 
-@media (max-width: 95em) {
-  .page__main-videos {
-    margin-inline: 1em;
-  }
-}
-
-@media (max-width: 70em) {
+@media (max-width: 80em) {
   .main-videos__grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 50em) {
+@media (max-width: 40em) {
   .main-videos__grid-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 65em) {
+  .page__main-videos {
+    margin-inline: 1em;
   }
 }

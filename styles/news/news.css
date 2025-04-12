@@ -1,5 +1,5 @@
 .page__news {
-  margin-inline: 20em;
+  margin-inline: clamp(160px, 15vw, 400px);
 }
 
 .news__container {
@@ -14,13 +14,13 @@
   border-radius: 1em;
 }
 
-@media (max-width: 95em) {
+@media (max-width: 65em) {
   .page__news {
     margin-inline: 1em;
   }
 }
 
-@media (max-width: 50em) {
+@media (max-width: 40em) {
   .news__container {
     flex-direction: column-reverse;
     align-items: center;

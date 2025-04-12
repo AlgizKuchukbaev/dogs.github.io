@@ -1,5 +1,5 @@
 .page__main {
-  margin-inline: 20em;
+  margin-inline: clamp(160px, 15vw, 320px);
 }
 
 .section-dog,
@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 95em) {
+@media (max-width: 65em) {
   .page__main {
     margin-inline: 1em;
   }
